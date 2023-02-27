@@ -1,0 +1,21 @@
+{
+  "name": "northflank-minio-api-guide",
+  "version": "1.0.0",
+  "description": "Some examples of implementing the JavaScript MinIO client to manage and use a Northflank MinIO addon",
+  "type": "module",
+  "scripts": {
+    "list-buckets": "node src/list-buckets.js",
+    "create-bucket": "node src/create-bucket.js",
+    "upload-object": "node src/upload-object.js",
+    "read-object": "node src/read-object.js",
+    "high-entropy-key": "node src/high-entropy-key.js",
+    "presigned-url": "node src/presigned-url.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "minio": "^7.0.22",
+    "uuid": "^9.0.0"
+  }
+}
